@@ -1,6 +1,30 @@
-<h1>Editar Usuario</h1>
+<div style="position:relative" id="editar">
+	<h1>Editar Usuario</h1>
 
-<%= render 'form' %>
-
-<%= link_to 'Apresentar', @usuario %> |
-<%= link_to 'Voltar', usuarios_path %>
+	<%= render 'form' %>
+</div>
+	
+<div class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Projetobemind</a>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li><%= link_to 'Apresentar', @usuario %></li>
+        <li><%= link_to 'Voltar', usuarios_path %></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+$(function(){
+	var width = $(document).width();
+	$('#editar').css({
+		"left":"35%"
+	})
+});
+</script>

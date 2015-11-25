@@ -1,37 +1,54 @@
-<%= form_for(@usuario) do |f| %>
+<script>
+	$(function(){
+		$('.actions input').attr('class','btn btn-success');
+	});
+</script>
+<%= form_for @usuario, html: {class: "form-horizontal"} do |f| %>
   <% if @usuario.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@usuario.errors.count, "error") %> prohibited this usuario from being saved:</h2>
-
-      <ul>
-      <% @usuario.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
-      </ul>
-    </div>
+	<div class="form-group">
+		<label class="col-sm-6 control-label">
+			<div class="alert alert-danger">
+				<strong>
+					<%= pluralize(@usuario.errors.count, "Erro") %>
+				</strong> 
+				Provavelmente este usuario já foi salvo.
+				<br/>
+				<% @usuario.errors.full_messages.each do |message| %>
+					<%= message %>
+				<% end %>
+			</div>
+		</label>
+	</div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :nome %><br>
-    <%= f.text_field :nome, :required => true %>
+  <div class="field form-group">
+    <%= f.label :nome, class:"col-sm-2 control-label" %>
+	<div class="col-sm-2">
+		<%= f.text_field :nome, :required => true, class:"form-control" %>
+	</div>
   </div>
 
-  <div class="field">
-    <%= f.label :email %><br>
-	<%= f.email_field :email, id: 'usuario_email', type:'email', required: true, placeholder: "Email" %> 
+  <div class="field form-group">
+    <%= f.label :email, class:"col-sm-2 control-label" %>
+	<div class="col-sm-2">
+		<%= f.email_field :email, id: 'usuario_email', type:'email', required: true, placeholder: "Email", class:"form-control" %> 
+	</div>
   </div>
   
-  <div class="field">
-	<%= f.label :sexo %><br>
-	<%= radio_button("usuario", "sexo", "m") %>
-	<%= f.label :masculino %>
-	<%= radio_button("usuario", "sexo", "f") %>
-	<%= f.label :feminino %>
+  <div class="field form-group">
+	<%= f.label :sexo, class:"col-sm-2 control-label" %>
+		<%= radio_button("usuario", "sexo", "m") %>
+		<%= f.label :masculino %>
+		<%= radio_button("usuario", "sexo", "f") %>
+		<%= f.label :feminino %>
   </div>
-  
-  <div class="field">
-	<%= f.label :data_de_nascimento %><br>
-	<%= date_field(:usuario, :nascimento) %>
+
+  <div class="field form-group">
+	<%= f.label :data_de_nascimento, class:"col-sm-2 control-label" %>
+	<div class="col-sm-3">
+		<%= f.text_field :nascimento, type:'date', class:"form-control" %>
+		<!--date_field(:usuario, :nascimento)-->
+	</div>
   </div>
   
   <div class="actions">
