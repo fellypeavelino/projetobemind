@@ -25,7 +25,7 @@
 						<span class="caret"></span></button>
 						<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
 						  <li role="presentation">
-							<%= link_to 'Voltar', usuarios_path, role: "menuitem", tabindex:"-1" %>
+							<a onClick="window.location = '/usuarios';" style="cursor:pointer" role="menuitem" tabindex="-1">Voltar</a>
 						  </li>
 						  <li role="presentation">
 							<%= link_to 'Editar', edit_usuario_path(@usuario), role: "menuitem", tabindex:"-1" %>

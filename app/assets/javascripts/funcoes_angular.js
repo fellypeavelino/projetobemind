@@ -9,7 +9,7 @@ myApp.controller('MainCtrl', function($scope) {
 
 myApp.controller('customersCtrl', function($scope, $http) {
 	var retorno = "";
-	$http.get("http://localhost:3000/usuarios/new")
+	$http.get("/usuarios/new")
 	.success(function(response) {
 		retorno = response;
 		$scope.show = function() {
