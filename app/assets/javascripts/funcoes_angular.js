@@ -1,10 +1,7 @@
 var myApp = angular.module('myApp', []);
 
 myApp.controller('MainCtrl', function($scope) {
-	$scope.AppendText = function() {
-		var myEl = angular.element( document.querySelector( '#divID' ) );
-		myEl.append('Hi<br/>');     
-    }
+
 });
 
 myApp.controller('customersCtrl', function($scope, $http) {
@@ -13,13 +10,13 @@ myApp.controller('customersCtrl', function($scope, $http) {
 	.success(function(response) {
 		retorno = response;
 		$scope.show = function() {
-			var width = $(document).width();
+			var width = $(window).width();
 			var height = $(window).height();
 			$('#sombra').css({
 				"width":(width )+"px",
 				"height":(height)+"px",
-				"top":"-23px",
-				"left":"-23px"
+				"top":"-10px",
+				"left":"-25px"
 			});
 			$('#sombra').fadeIn("slow");
 			//console.log((width / 2) - 212);

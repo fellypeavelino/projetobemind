@@ -7,59 +7,69 @@
 </div>
 <p id="notice"><% notice %></p>
 <div class="panel panel-default">
-                            <div class="panel-body">
-<h1 style="text-align:center" >Listando Usuarios</h1>
-<br>
-<div class="container" ng-controller="customersCtrl" >
-    <div class="row col-md-6 col-md-offset-2 custyle">
-    <table class="table table-striped custab">
-    <thead>
-		<a class="btn btn-primary btn-xs pull-right" ng-click="show()" ><b>+</b> Novo Usuario</a>
-		<!--
-	<%= link_to '+ Novo Usuario', new_usuario_path, class:"btn btn-primary btn-xs pull-right", style:"color:white" %>
-		-->
-	   <tr>
-			<th>Nome</th>
-			<th>E-mail</th>
-			<th>Sexo</th>
-			<th>Data de Nascimento</th>
-            <th class="text-center">Ações</th>
-        </tr>
-    </thead>
-		<tbody>
-		<% @usuarios.each do |usuario| %>
-            <tr>
-				<td><%= usuario.nome %></td>
-				<td><%= usuario.email %></td>
-				<td><%= usuario.sexo == 'm' ? 'masculino' : 'feminino' %></td>
-				<td><%= usuario.nascimento.to_s.split('-').reverse.join('/') %></td>
-                <td class="text-center">
-					<div class="dropdown">
-						<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-						Selecione
-						<span class="caret"></span></button>
-						<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-						  <li role="presentation">
-							<%= link_to 'Apresentar', usuario, role: "menuitem", tabindex:"-1" %>
-						  </li>
-						  <li role="presentation">
-							<%= link_to 'Editar', edit_usuario_path(usuario), role: "menuitem", tabindex:"-1" %> 
-						  </li>
-						  <li role="presentation">
-							<%= link_to 'Deletar', usuario, method: :delete, data: { confirm: 'Are you sure?' }, role: "menuitem", tabindex:"-1" %>
-						  </li>
-						</ul>
-					</div>
-				</td>
-            </tr>
-		<% end %>
-		</tbody>
-    </table>
-    </div>
+	<div class="panel-body">
+		<h1 style="text-align:center" >Listando Usuarios</h1>
+		<br>
+		<div class="container" ng-controller="customersCtrl" >
+			<div class="row col-md-6 col-md-offset-2 custyle">
+				<table class="table table-striped custab">
+					<thead>
+						<a class="btn btn-primary btn-xs pull-right" ng-click="show()" ><b>+</b> Novo Usuario</a>
+						<!--
+					<%= link_to '+ Novo Usuario', new_usuario_path, class:"btn btn-primary btn-xs pull-right", style:"color:white" %>
+						-->
+					   <tr>
+							<th>Nome</th>
+							<th>E-mail</th>
+							<th>Sexo</th>
+							<th>Data de Nascimento</th>
+							<th class="text-center">Ações</th>
+						</tr>
+					</thead>
+					<tbody>
+					<% @usuarios.each do |usuario| %>
+						<tr>
+							<td><%= usuario.nome %></td>
+							<td><%= usuario.email %></td>
+							<td><%= usuario.sexo == 'm' ? 'masculino' : 'feminino' %></td>
+							<td><%= usuario.nascimento.to_s.split('-').reverse.join('/') %></td>
+							<td class="text-center">
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+									Selecione
+									<span class="caret"></span></button>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									  <li role="presentation">
+										<%= link_to 'Apresentar', usuario, role: "menuitem", tabindex:"-1" %>
+									  </li>
+									  <li role="presentation">
+										<%= link_to 'Editar', edit_usuario_path(usuario), role: "menuitem", tabindex:"-1" %> 
+									  </li>
+									  <li role="presentation">
+										<%= link_to 'Deletar', usuario, method: :delete, data: { confirm: 'Are you sure?' }, role: "menuitem", tabindex:"-1" %>
+									  </li>
+									</ul>
+								</div>
+							</td>
+						</tr>
+					<% end %>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="navbar navbar-default" style="position:fixed;top:90%">
+  <div class="container">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Projetobemind</a>
+  </div>
+</div>
 
-<br>
-</div>
-</div>
 <!--
 <%= link_to 'Novo Usuario', new_usuario_path %>
 -->

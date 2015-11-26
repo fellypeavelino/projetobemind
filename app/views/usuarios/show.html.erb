@@ -1,41 +1,62 @@
+<div class="panel panel-default">
+	<div class="panel-body">
+		<div class="container">
+			<div class="row col-md-6 col-md-offset-2 custyle">
+				<table class="table table-striped custab">
+					<thead>
+					<%= link_to '+ Novo Usuario', new_usuario_path, class:"btn btn-primary btn-xs pull-right", style:"color:white" %>
+						<tr>
+							<th>Nome</th>
+							<th>E-mail</th>
+							<th>Sexo</th>
+							<th>Data de Nascimento</th>
+							<th class="text-center">Ações</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><%= @usuario.nome %></td>
+							<td><%= @usuario.email %></td>
+							<td><%= @usuario.sexo == 'm' ? 'masculino' : 'feminino' %></td>
+							<td><%= @usuario.nascimento.to_s.split('-').reverse.join('/') %></td>
+							<td class="text-center">
+								<div class="dropdown">
+									<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+									Selecione
+									<span class="caret"></span></button>
+									<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									  <li role="presentation">
+										<a onClick="window.location = '/usuarios';" style="cursor:pointer" role="menuitem" tabindex="-1">Principal</a>
+									  </li>
+									  <li role="presentation">
+										<%= link_to 'Editar', edit_usuario_path(@usuario), role: "menuitem", tabindex:"-1" %>
+									  </li>
+									</ul>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
 
-<div class="container">
-    <div class="row col-md-6 col-md-offset-2 custyle">
-    <table class="table table-striped custab">
-    <thead>
-	<%= link_to '+ Novo Usuario', new_usuario_path, class:"btn btn-primary btn-xs pull-right", style:"color:white" %>
-        <tr>
-			<th>Nome</th>
-			<th>E-mail</th>
-			<th>Sexo</th>
-			<th>Data de Nascimento</th>
-            <th class="text-center">Ações</th>
-        </tr>
-    </thead>
-		<tbody>
-            <tr>
-				<td><%= @usuario.nome %></td>
-				<td><%= @usuario.email %></td>
-				<td><%= @usuario.sexo == 'm' ? 'masculino' : 'feminino' %></td>
-				<td><%= @usuario.nascimento.to_s.split('-').reverse.join('/') %></td>
-                <td class="text-center">
-					<div class="dropdown">
-						<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
-						Selecione
-						<span class="caret"></span></button>
-						<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-						  <li role="presentation">
-							<a onClick="window.location = '/usuarios';" style="cursor:pointer" role="menuitem" tabindex="-1">Voltar</a>
-						  </li>
-						  <li role="presentation">
-							<%= link_to 'Editar', edit_usuario_path(@usuario), role: "menuitem", tabindex:"-1" %>
-						  </li>
-						</ul>
-					</div>
-				</td>
-            </tr>
-		</tbody>
-    </table>
+<div class="navbar navbar-default navbar-static-top" style="position:fixed;top:90%">
+  <div class="container">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Projetobemind</a>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li><%= link_to 'Apresentar', @usuario %></li>
+        <li onClick="window.history.back();"><a style="cursor:pointer">Voltar</a></li>
+      </ul>
     </div>
+  </div>
+</div>
 
 
