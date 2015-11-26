@@ -43241,3 +43241,24 @@ Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff
 
 
 Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-26 18:14:57 -0200
+
+
+Started GET "/" for ::1 at 2015-11-26 18:17:59 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` LIMIT 5[0m
+  Rendered usuarios/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1786ms (Views: 1783.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 18:18:01 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 1745ms (Views: 1742.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 18:18:03 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 1648ms (Views: 1645.1ms | ActiveRecord: 0.0ms)
