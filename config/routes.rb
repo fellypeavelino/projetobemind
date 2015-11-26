@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'mais_usuarios/index'
+
   resources :usuarios
   root 'usuarios#index'
   get 'usuarios/:id' => 'usuarios#show'
