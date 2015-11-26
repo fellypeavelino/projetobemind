@@ -10,6 +10,9 @@ myApp.controller('customersCtrl', function($scope, $http) {
 	.success(function(response) {
 		retorno = response;
 		$scope.show = function() {
+			$("body").css("overflow", "hidden");
+			$("body").scrollTop(0);
+			//$("html, body").animate({ scrollTop: 0 }, 600);
 			var width = $(window).width();
 			var height = $(window).height();
 			$('#sombra').css({

@@ -38493,3 +38493,2354 @@ Processing by UsuariosController#new as HTML
   Rendered usuarios/_form.html.erb (10.0ms)
   Rendered usuarios/new.html.erb within layouts/application (18.0ms)
 Completed 200 OK in 1552ms (Views: 1550.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/1/edit" for ::1 at 2015-11-26 14:58:31 -0200
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUsuario Load (2.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 LIMIT 1[0m
+  Rendered usuarios/_form.html.erb (11.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1822ms (Views: 1813.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 14:59:49 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 1427ms (Views: 1402.1ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 14:59:51 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1678ms (Views: 1676.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 14:59:53 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 1569ms (Views: 1567.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/2/edit" for ::1 at 2015-11-26 14:59:57 -0200
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 2 LIMIT 1[0m
+  Rendered usuarios/_form.html.erb (11.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 1759ms (Views: 1754.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/2" for ::1 at 2015-11-26 15:01:07 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 2 LIMIT 1
+  Rendered usuarios/show.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1743ms (Views: 1690.1ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/usuarios/2" for ::1 at 2015-11-26 15:01:16 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 2 LIMIT 1[0m
+  Rendered usuarios/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1774ms (Views: 1766.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:01:21 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1908ms (Views: 1906.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:01:23 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1528ms (Views: 1527.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:01:25 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1787ms (Views: 1785.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/1/edit" for ::1 at 2015-11-26 15:01:28 -0200
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 LIMIT 1[0m
+  Rendered usuarios/_form.html.erb (11.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1726ms (Views: 1719.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/1" for ::1 at 2015-11-26 15:02:12 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 LIMIT 1
+  Rendered usuarios/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1686ms (Views: 1638.1ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:03:07 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 1465ms (Views: 1439.1ms | ActiveRecord: 12.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:03:09 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1891ms (Views: 1888.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:03:11 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (12.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 1724ms (Views: 1722.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/1/edit" for ::1 at 2015-11-26 15:03:13 -0200
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUsuario Load (2.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 LIMIT 1
+  Rendered usuarios/_form.html.erb (11.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 1584ms (Views: 1535.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios/1" for ::1 at 2015-11-26 15:03:19 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 LIMIT 1[0m
+  Rendered usuarios/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1097ms (Views: 1092.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/show" for ::1 at 2015-11-26 15:03:29 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 0 LIMIT 1
+Completed 404 Not Found in 6ms (ActiveRecord: 1.0ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Usuario with 'id'=show):
+  app/controllers/usuarios_controller.rb:67:in `set_usuario'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (176.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (158.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (352.0ms)
+
+
+Started GET "/usuarios/1" for ::1 at 2015-11-26 15:03:35 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 LIMIT 1[0m
+  Rendered usuarios/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1784ms (Views: 1779.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/1/edit" for ::1 at 2015-11-26 15:03:38 -0200
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 LIMIT 1
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1770ms (Views: 1763.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:03:42 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 1553ms (Views: 1550.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2015-11-26 15:06:49 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1646ms (Views: 1643.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:06:52 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1572ms (Views: 1569.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:06:53 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (9.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 1473ms (Views: 1471.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/1/edit" for ::1 at 2015-11-26 15:07:21 -0200
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 LIMIT 1[0m
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1448ms (Views: 1440.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/1" for ::1 at 2015-11-26 15:15:17 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 1 LIMIT 1
+  Rendered usuarios/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1552ms (Views: 1545.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:15:23 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 1392ms (Views: 1389.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:15:24 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (16.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 1602ms (Views: 1601.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:15:26 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1148ms (Views: 1145.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448558124705" for ::1 at 2015-11-26 15:32:35 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448558124706" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448558124707" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448558124708" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448558124709" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448558124710" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448558124711" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448558124712" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448558124713" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448558124714" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448558124715" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448558124716" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448558124717" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448558124718" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448558124719" for ::1 at 2015-11-26 15:32:36 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448558124720" for ::1 at 2015-11-26 15:32:37 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448558124721" for ::1 at 2015-11-26 15:32:37 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448558124722" for ::1 at 2015-11-26 15:32:37 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448558124723" for ::1 at 2015-11-26 15:32:37 -0200
+
+
+Started GET "/assets/funcoes_angular.self-5182a3fca5bb030f8578afaafc6a1b864d37184a3e4cd7129e3af6c87a6c3d3d.js?body=1&_=1448558124724" for ::1 at 2015-11-26 15:32:37 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448558124725" for ::1 at 2015-11-26 15:32:37 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448558124726" for ::1 at 2015-11-26 15:32:37 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448558124727" for ::1 at 2015-11-26 15:32:37 -0200
+
+
+Started POST "/usuarios" for ::1 at 2015-11-26 15:32:54 -0200
+Processing by UsuariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Np2bu3Gtr0gz2TZ6NMSAMJLIFWNIoFQmkMXkqHY6F4GY8f2b0MpniiSQeWryf/6KKT/QkPgQ7fuBb0e3D8COGw==", "usuario"=>{"nome"=>"ruby", "email"=>"ruby@gmail.com", "nascimento"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mUsuario Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `usuarios` WHERE `usuarios`.`email` = 'ruby@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `usuarios` (`nome`, `email`) VALUES ('ruby', 'ruby@gmail.com')
+  [1m[36m (116.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/usuarios/9
+Completed 302 Found in 145ms (ActiveRecord: 118.0ms)
+
+
+Started GET "/usuarios/9" for ::1 at 2015-11-26 15:32:54 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 9 LIMIT 1
+  Rendered usuarios/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1635ms (Views: 1627.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:33:00 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (49.0ms)
+Completed 200 OK in 1583ms (Views: 1579.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:33:02 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1533ms (Views: 1532.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:33:04 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (9.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1830ms (Views: 1828.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448559182654" for ::1 at 2015-11-26 15:33:11 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448559182655" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448559182656" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448559182657" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448559182658" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448559182659" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448559182660" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448559182661" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448559182662" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448559182663" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448559182664" for ::1 at 2015-11-26 15:33:12 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448559182665" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448559182666" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448559182667" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448559182668" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448559182669" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448559182670" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448559182671" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448559182672" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/funcoes_angular.self-5182a3fca5bb030f8578afaafc6a1b864d37184a3e4cd7129e3af6c87a6c3d3d.js?body=1&_=1448559182673" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448559182674" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448559182675" for ::1 at 2015-11-26 15:33:13 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448559182676" for ::1 at 2015-11-26 15:33:14 -0200
+
+
+Started POST "/usuarios" for ::1 at 2015-11-26 15:33:30 -0200
+Processing by UsuariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0iq8X92FDQ1IgwSOfmRkkinUA05wh+FMOpGW6ViZfFR8Rtp/fOLFz1/KS5643xookiPGvcA3WJErOzX2IWPlzg==", "usuario"=>{"nome"=>"rails", "email"=>"rails@hotmail.com", "sexo"=>"f", "nascimento"=>"2015-11-04"}, "commit"=>"Create Usuario"}
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUsuario Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `usuarios` WHERE `usuarios`.`email` = 'rails@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `usuarios` (`nome`, `email`, `sexo`, `nascimento`) VALUES ('rails', 'rails@hotmail.com', 'f', '2015-11-04')
+  [1m[36m (189.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/usuarios/10
+Completed 302 Found in 214ms (ActiveRecord: 191.0ms)
+
+
+Started GET "/usuarios/10" for ::1 at 2015-11-26 15:33:30 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 10 LIMIT 1
+  Rendered usuarios/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1608ms (Views: 1601.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:33:38 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 1681ms (Views: 1678.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:33:41 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1446ms (Views: 1444.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:33:42 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1823ms (Views: 1822.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448559220675" for ::1 at 2015-11-26 15:40:12 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448559220676" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448559220677" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448559220678" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448559220679" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448559220680" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448559220681" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448559220682" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448559220683" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448559220684" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448559220685" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448559220686" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448559220687" for ::1 at 2015-11-26 15:40:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448559220688" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448559220689" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448559220690" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448559220691" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448559220692" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448559220693" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/assets/funcoes_angular.self-5182a3fca5bb030f8578afaafc6a1b864d37184a3e4cd7129e3af6c87a6c3d3d.js?body=1&_=1448559220694" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448559220695" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448559220696" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448559220697" for ::1 at 2015-11-26 15:40:14 -0200
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:40:43 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (47.0ms)
+Completed 200 OK in 1646ms (Views: 1642.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:40:45 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (9.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1081ms (Views: 1080.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:40:47 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (4.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 1002ms (Views: 1001.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448559645721" for ::1 at 2015-11-26 15:40:50 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448559645722" for ::1 at 2015-11-26 15:40:50 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448559645723" for ::1 at 2015-11-26 15:40:50 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448559645724" for ::1 at 2015-11-26 15:40:50 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448559645725" for ::1 at 2015-11-26 15:40:50 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448559645726" for ::1 at 2015-11-26 15:40:50 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448559645727" for ::1 at 2015-11-26 15:40:50 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448559645728" for ::1 at 2015-11-26 15:40:50 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448559645729" for ::1 at 2015-11-26 15:40:50 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448559645730" for ::1 at 2015-11-26 15:40:51 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448559645731" for ::1 at 2015-11-26 15:40:51 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448559645732" for ::1 at 2015-11-26 15:40:51 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448559645733" for ::1 at 2015-11-26 15:40:51 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448559645734" for ::1 at 2015-11-26 15:40:51 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448559645735" for ::1 at 2015-11-26 15:40:51 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448559645736" for ::1 at 2015-11-26 15:40:51 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448559645737" for ::1 at 2015-11-26 15:40:51 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448559645738" for ::1 at 2015-11-26 15:40:51 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448559645739" for ::1 at 2015-11-26 15:40:52 -0200
+
+
+Started GET "/assets/funcoes_angular.self-5182a3fca5bb030f8578afaafc6a1b864d37184a3e4cd7129e3af6c87a6c3d3d.js?body=1&_=1448559645740" for ::1 at 2015-11-26 15:40:52 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448559645741" for ::1 at 2015-11-26 15:40:52 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448559645742" for ::1 at 2015-11-26 15:40:52 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448559645743" for ::1 at 2015-11-26 15:40:52 -0200
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:41:10 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (2.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 1546ms (Views: 1542.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:41:12 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 984ms (Views: 983.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:41:13 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 1181ms (Views: 1179.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/usuarios/10" for ::1 at 2015-11-26 15:41:23 -0200
+Processing by UsuariosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Hf5YDfs5uWtbFn2kyiZGK1wsKX7dcI0pQvq5hN+smuazkj4tWl5xqUxfMrQMnTiR59vsjW3ANPRTUBqbplYDfA==", "id"=>"10"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 10 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (24.0ms)[0m  DELETE FROM `usuarios` WHERE `usuarios`.`id` = 10
+  [1m[36m (48.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/usuarios
+Completed 302 Found in 93ms (ActiveRecord: 73.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:41:24 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1404ms (Views: 1401.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:41:25 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1442ms (Views: 1439.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:41:27 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1080ms (Views: 1078.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/usuarios/9" for ::1 at 2015-11-26 15:41:33 -0200
+Processing by UsuariosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"slrahyPLAz+68wtkrjrpQfcCutQAm5FYdMnreARPeNEcNryngqzL/a26RHRogZf7TPV/J7ArKIVlY0hnfbXhSw==", "id"=>"9"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 9 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (5.0ms)[0m  [1mDELETE FROM `usuarios` WHERE `usuarios`.`id` = 9[0m
+  [1m[35m (117.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/usuarios
+Completed 302 Found in 139ms (ActiveRecord: 124.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:41:33 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1356ms (Views: 1352.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:41:35 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 1428ms (Views: 1426.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:41:37 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1292ms (Views: 1290.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/usuarios/8" for ::1 at 2015-11-26 15:41:42 -0200
+Processing by UsuariosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"n0xPtpddvpFIDQOGfrfY6S1N1W85bGSIg1zKavm3e6sxICmWNjp2U19ETJa4DKZTlroQnInc3VWS9ml1gE3iMQ==", "id"=>"8"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 8 LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM `usuarios` WHERE `usuarios`.`id` = 8
+  [1m[36m (92.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/usuarios
+Completed 302 Found in 112ms (ActiveRecord: 95.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:41:42 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1483ms (Views: 1481.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:41:44 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1516ms (Views: 1515.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:41:46 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 1389ms (Views: 1387.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448559704576" for ::1 at 2015-11-26 15:41:53 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448559704577" for ::1 at 2015-11-26 15:41:53 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448559704578" for ::1 at 2015-11-26 15:41:53 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448559704579" for ::1 at 2015-11-26 15:41:53 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448559704580" for ::1 at 2015-11-26 15:41:53 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448559704581" for ::1 at 2015-11-26 15:41:53 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448559704582" for ::1 at 2015-11-26 15:41:53 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448559704583" for ::1 at 2015-11-26 15:41:53 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448559704584" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448559704585" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448559704586" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448559704587" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448559704588" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448559704589" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448559704590" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448559704591" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448559704592" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448559704593" for ::1 at 2015-11-26 15:41:54 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448559704594" for ::1 at 2015-11-26 15:41:55 -0200
+
+
+Started GET "/assets/funcoes_angular.self-5182a3fca5bb030f8578afaafc6a1b864d37184a3e4cd7129e3af6c87a6c3d3d.js?body=1&_=1448559704595" for ::1 at 2015-11-26 15:41:55 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448559704596" for ::1 at 2015-11-26 15:41:55 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448559704597" for ::1 at 2015-11-26 15:41:55 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448559704598" for ::1 at 2015-11-26 15:41:55 -0200
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:42:03 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (2.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1680ms (Views: 1676.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:42:05 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1335ms (Views: 1334.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:42:06 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1307ms (Views: 1305.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448559725311" for ::1 at 2015-11-26 15:43:19 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448559725312" for ::1 at 2015-11-26 15:43:19 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448559725313" for ::1 at 2015-11-26 15:43:19 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448559725314" for ::1 at 2015-11-26 15:43:19 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448559725315" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448559725316" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448559725317" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448559725318" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448559725319" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448559725320" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448559725321" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448559725322" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448559725323" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448559725324" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448559725325" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448559725326" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448559725327" for ::1 at 2015-11-26 15:43:20 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448559725328" for ::1 at 2015-11-26 15:43:21 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448559725329" for ::1 at 2015-11-26 15:43:21 -0200
+
+
+Started GET "/assets/funcoes_angular.self-5182a3fca5bb030f8578afaafc6a1b864d37184a3e4cd7129e3af6c87a6c3d3d.js?body=1&_=1448559725330" for ::1 at 2015-11-26 15:43:21 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448559725331" for ::1 at 2015-11-26 15:43:21 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448559725332" for ::1 at 2015-11-26 15:43:21 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448559725333" for ::1 at 2015-11-26 15:43:21 -0200
+
+
+Started POST "/usuarios" for ::1 at 2015-11-26 15:43:34 -0200
+Processing by UsuariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bUm+jaTpG3gJfOKEN/RJAME32dWyI4v8xDwc/jbZtY/DJditBY7Tuh41rZTxTze6esAcJgKTMiHVlr/hTyMsFQ==", "usuario"=>{"nome"=>"felipe", "email"=>"teste@hotmail.com", "nascimento"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUsuario Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `usuarios` WHERE `usuarios`.`email` = 'teste@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `usuarios` (`nome`, `email`) VALUES ('felipe', 'teste@hotmail.com')
+  [1m[36m (188.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/usuarios/11
+Completed 302 Found in 210ms (ActiveRecord: 190.0ms)
+
+
+Started GET "/usuarios/11" for ::1 at 2015-11-26 15:43:34 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[35mUsuario Load (2.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 11 LIMIT 1
+  Rendered usuarios/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1408ms (Views: 1402.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:43:41 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (2.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1634ms (Views: 1629.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:43:43 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (9.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1495ms (Views: 1493.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:43:45 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1508ms (Views: 1507.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448559823378" for ::1 at 2015-11-26 15:43:47 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448559823379" for ::1 at 2015-11-26 15:43:47 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448559823380" for ::1 at 2015-11-26 15:43:47 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448559823381" for ::1 at 2015-11-26 15:43:47 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448559823382" for ::1 at 2015-11-26 15:43:47 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448559823383" for ::1 at 2015-11-26 15:43:47 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448559823384" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448559823385" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448559823386" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448559823387" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448559823388" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448559823389" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448559823390" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448559823391" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448559823392" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448559823393" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448559823394" for ::1 at 2015-11-26 15:43:48 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448559823395" for ::1 at 2015-11-26 15:43:49 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448559823396" for ::1 at 2015-11-26 15:43:49 -0200
+
+
+Started GET "/assets/funcoes_angular.self-5182a3fca5bb030f8578afaafc6a1b864d37184a3e4cd7129e3af6c87a6c3d3d.js?body=1&_=1448559823397" for ::1 at 2015-11-26 15:43:49 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448559823398" for ::1 at 2015-11-26 15:43:49 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448559823399" for ::1 at 2015-11-26 15:43:49 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448559823400" for ::1 at 2015-11-26 15:43:49 -0200
+
+
+Started POST "/usuarios" for ::1 at 2015-11-26 15:43:58 -0200
+Processing by UsuariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dMZiq7WKHMbCH4GtK/RyAfg4oI6Icd+yZoUke/oPYlHaqgSLFO3UBNVWzr3tTwy7Q89lfTjBZm93L4dkg/X7yw==", "usuario"=>{"nome"=>"teste", "email"=>"novo3@hotmail.com", "nascimento"=>""}, "commit"=>"Create Usuario"}
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mUsuario Exists (1.0ms)[0m  [1mSELECT  1 AS one FROM `usuarios` WHERE `usuarios`.`email` = 'novo3@hotmail.com' LIMIT 1[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `usuarios` (`nome`, `email`) VALUES ('teste', 'novo3@hotmail.com')
+  [1m[36m (163.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/usuarios/12
+Completed 302 Found in 180ms (ActiveRecord: 165.0ms)
+
+
+Started GET "/usuarios/12" for ::1 at 2015-11-26 15:43:58 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 12 LIMIT 1
+  Rendered usuarios/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1554ms (Views: 1547.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:44:04 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 1594ms (Views: 1589.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:44:05 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1298ms (Views: 1295.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:44:07 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 1631ms (Views: 1629.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448559845811" for ::1 at 2015-11-26 15:44:09 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448559845812" for ::1 at 2015-11-26 15:44:09 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448559845813" for ::1 at 2015-11-26 15:44:09 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448559845814" for ::1 at 2015-11-26 15:44:09 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448559845815" for ::1 at 2015-11-26 15:44:09 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448559845816" for ::1 at 2015-11-26 15:44:09 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448559845817" for ::1 at 2015-11-26 15:44:09 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448559845818" for ::1 at 2015-11-26 15:44:09 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448559845819" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448559845820" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448559845821" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448559845822" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448559845823" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448559845824" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448559845825" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448559845826" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448559845827" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448559845828" for ::1 at 2015-11-26 15:44:10 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448559845829" for ::1 at 2015-11-26 15:44:11 -0200
+
+
+Started GET "/assets/funcoes_angular.self-5182a3fca5bb030f8578afaafc6a1b864d37184a3e4cd7129e3af6c87a6c3d3d.js?body=1&_=1448559845830" for ::1 at 2015-11-26 15:44:11 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448559845831" for ::1 at 2015-11-26 15:44:11 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448559845832" for ::1 at 2015-11-26 15:44:11 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448559845833" for ::1 at 2015-11-26 15:44:11 -0200
+
+
+Started GET "/assets/angular.min.js.map" for ::1 at 2015-11-26 15:44:27 -0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular.min.js.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (182.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (164.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (307.0ms)
+
+
+Started GET "/angular.min.js.map" for ::1 at 2015-11-26 15:44:28 -0200
+
+ActionController::RoutingError (No route matches [GET] "/angular.min.js.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (167.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (98.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (215.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:44:52 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (2.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 1561ms (Views: 1556.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:44:54 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1781ms (Views: 1780.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:44:56 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1405ms (Views: 1402.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:46:04 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (2.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 3322ms (Views: 3316.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/funcoes_angular.self-ef2b0f354acac4e0429e2ccf45b2ae2e5e6e4a02491666a8b655c5ce8fda4c77.js?body=1" for ::1 at 2015-11-26 15:46:08 -0200
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:46:08 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1597ms (Views: 1595.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:46:10 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 1813ms (Views: 1811.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448559968194" for ::1 at 2015-11-26 15:46:13 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448559968195" for ::1 at 2015-11-26 15:46:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448559968196" for ::1 at 2015-11-26 15:46:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448559968197" for ::1 at 2015-11-26 15:46:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448559968198" for ::1 at 2015-11-26 15:46:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448559968199" for ::1 at 2015-11-26 15:46:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448559968200" for ::1 at 2015-11-26 15:46:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448559968201" for ::1 at 2015-11-26 15:46:13 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448559968202" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448559968203" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448559968204" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448559968205" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448559968206" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448559968207" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448559968208" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448559968209" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448559968210" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448559968211" for ::1 at 2015-11-26 15:46:14 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448559968212" for ::1 at 2015-11-26 15:46:15 -0200
+
+
+Started GET "/assets/funcoes_angular.self-ef2b0f354acac4e0429e2ccf45b2ae2e5e6e4a02491666a8b655c5ce8fda4c77.js?body=1&_=1448559968213" for ::1 at 2015-11-26 15:46:15 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448559968214" for ::1 at 2015-11-26 15:46:15 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448559968215" for ::1 at 2015-11-26 15:46:15 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448559968216" for ::1 at 2015-11-26 15:46:15 -0200
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:46:24 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (43.0ms)
+Completed 200 OK in 1835ms (Views: 1831.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:46:26 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 1127ms (Views: 1125.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:46:27 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 940ms (Views: 939.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448559986099" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448559986100" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448559986101" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448559986102" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448559986103" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448559986104" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448559986105" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448559986106" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448559986107" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448559986108" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448559986109" for ::1 at 2015-11-26 15:46:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448559986110" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448559986111" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448559986112" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448559986113" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448559986114" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448559986115" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448559986116" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448559986117" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/funcoes_angular.self-ef2b0f354acac4e0429e2ccf45b2ae2e5e6e4a02491666a8b655c5ce8fda4c77.js?body=1&_=1448559986118" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448559986119" for ::1 at 2015-11-26 15:46:32 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448559986120" for ::1 at 2015-11-26 15:46:33 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448559986121" for ::1 at 2015-11-26 15:46:33 -0200
+
+
+Started POST "/usuarios" for ::1 at 2015-11-26 15:46:56 -0200
+Processing by UsuariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"16jP2ZcjwOUbyxKeMunP0+UNERMqfOYQiuIP6ijwLjN5xKn5NkQIJwyCXY70UrFpXvrU4JrMX82bSKz1UQq3qQ==", "usuario"=>{"nome"=>"paraque isso", "email"=>"maria5@hotmail.com", "sexo"=>"f", "nascimento"=>"2015-11-02"}, "commit"=>"Create Usuario"}
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mUsuario Exists (1.0ms)[0m  SELECT  1 AS one FROM `usuarios` WHERE `usuarios`.`email` = 'maria5@hotmail.com' LIMIT 1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `usuarios` (`nome`, `email`, `sexo`, `nascimento`) VALUES ('paraque isso', 'maria5@hotmail.com', 'f', '2015-11-02')[0m
+  [1m[35m (326.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/usuarios/13
+Completed 302 Found in 358ms (ActiveRecord: 329.0ms)
+
+
+Started GET "/usuarios/13" for ::1 at 2015-11-26 15:46:56 -0200
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 13 LIMIT 1[0m
+  Rendered usuarios/show.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 1473ms (Views: 1467.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:47:03 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (2.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1671ms (Views: 1667.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:47:05 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1336ms (Views: 1334.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:47:07 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1411ms (Views: 1410.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448560025652" for ::1 at 2015-11-26 15:47:14 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448560025653" for ::1 at 2015-11-26 15:47:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448560025654" for ::1 at 2015-11-26 15:47:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448560025655" for ::1 at 2015-11-26 15:47:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448560025656" for ::1 at 2015-11-26 15:47:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448560025657" for ::1 at 2015-11-26 15:47:14 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448560025658" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448560025659" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448560025660" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448560025661" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448560025662" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448560025663" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448560025664" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448560025665" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448560025666" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448560025667" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448560025668" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448560025669" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448560025670" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/funcoes_angular.self-ef2b0f354acac4e0429e2ccf45b2ae2e5e6e4a02491666a8b655c5ce8fda4c77.js?body=1&_=1448560025671" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448560025672" for ::1 at 2015-11-26 15:47:15 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448560025673" for ::1 at 2015-11-26 15:47:16 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448560025674" for ::1 at 2015-11-26 15:47:16 -0200
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:47:28 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 1744ms (Views: 1740.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for ::1 at 2015-11-26 15:47:30 -0200
+
+
+Started GET "/assets/scaffolds.self-3f404e58fd3c6eaceec1f7bbdd12faa7b1a8bb614376021bff3c28ceba0a923e.css?body=1" for ::1 at 2015-11-26 15:47:30 -0200
+
+
+Started GET "/assets/costumer_table.self-3a5811d7c1a08cdf7c858be0ccfe5dad1b00a8fb9d8f2c8a0f277f50120b8c7c.css?body=1" for ::1 at 2015-11-26 15:47:30 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/usuarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/application.self-30e217f103d6632579fa2113f70cede543e09ec3f26957653e21a85d8f9e141b.css?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for ::1 at 2015-11-26 15:47:31 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-11-26 15:47:32 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-26 15:47:32 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1" for ::1 at 2015-11-26 15:47:32 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-26 15:47:32 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2015-11-26 15:47:32 -0200
+
+
+Started GET "/assets/funcoes_angular.self-ef2b0f354acac4e0429e2ccf45b2ae2e5e6e4a02491666a8b655c5ce8fda4c77.js?body=1" for ::1 at 2015-11-26 15:47:32 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1" for ::1 at 2015-11-26 15:47:32 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1" for ::1 at 2015-11-26 15:47:32 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-26 15:47:32 -0200
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:47:32 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1332ms (Views: 1330.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:47:34 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (7.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1250ms (Views: 1247.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448560051384" for ::1 at 2015-11-26 15:48:29 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448560051385" for ::1 at 2015-11-26 15:48:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448560051386" for ::1 at 2015-11-26 15:48:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448560051387" for ::1 at 2015-11-26 15:48:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448560051388" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448560051389" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448560051390" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448560051391" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448560051392" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448560051393" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448560051394" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448560051395" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448560051396" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448560051397" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448560051398" for ::1 at 2015-11-26 15:48:30 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448560051399" for ::1 at 2015-11-26 15:48:31 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448560051400" for ::1 at 2015-11-26 15:48:31 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448560051401" for ::1 at 2015-11-26 15:48:31 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448560051402" for ::1 at 2015-11-26 15:48:31 -0200
+
+
+Started GET "/assets/funcoes_angular.self-ef2b0f354acac4e0429e2ccf45b2ae2e5e6e4a02491666a8b655c5ce8fda4c77.js?body=1&_=1448560051403" for ::1 at 2015-11-26 15:48:31 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448560051404" for ::1 at 2015-11-26 15:48:31 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448560051405" for ::1 at 2015-11-26 15:48:31 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448560051406" for ::1 at 2015-11-26 15:48:31 -0200
+
+
+Started GET "/angular.min.js.map" for ::1 at 2015-11-26 15:48:39 -0200
+
+ActionController::RoutingError (No route matches [GET] "/angular.min.js.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (182.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (137.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (281.0ms)
+
+
+Started GET "/assets/angular.min.js.map" for ::1 at 2015-11-26 15:48:39 -0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/angular.min.js.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby200/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (65.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (209.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (116.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby200/lib/ruby/gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (234.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:50:42 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 3826ms (Views: 3823.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/usuarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/scaffolds.self-3f404e58fd3c6eaceec1f7bbdd12faa7b1a8bb614376021bff3c28ceba0a923e.css?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/costumer_table.self-3a5811d7c1a08cdf7c858be0ccfe5dad1b00a8fb9d8f2c8a0f277f50120b8c7c.css?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/application.self-30e217f103d6632579fa2113f70cede543e09ec3f26957653e21a85d8f9e141b.css?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for ::1 at 2015-11-26 15:50:46 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/funcoes_angular.self-8849c7639c2fadb97a7d2d97555239332b90c4b69a560cb14e29d4a17d890bb0.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-26 15:50:47 -0200
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:50:47 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1559ms (Views: 1557.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:50:49 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1904ms (Views: 1900.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448560246580" for ::1 at 2015-11-26 15:50:51 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448560246581" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448560246582" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448560246583" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448560246584" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448560246585" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448560246586" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448560246587" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448560246588" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448560246589" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448560246590" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448560246591" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448560246592" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448560246593" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448560246594" for ::1 at 2015-11-26 15:50:52 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448560246595" for ::1 at 2015-11-26 15:50:53 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448560246596" for ::1 at 2015-11-26 15:50:53 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448560246597" for ::1 at 2015-11-26 15:50:53 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448560246598" for ::1 at 2015-11-26 15:50:53 -0200
+
+
+Started GET "/assets/funcoes_angular.self-8849c7639c2fadb97a7d2d97555239332b90c4b69a560cb14e29d4a17d890bb0.js?body=1&_=1448560246599" for ::1 at 2015-11-26 15:50:53 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448560246600" for ::1 at 2015-11-26 15:50:53 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448560246601" for ::1 at 2015-11-26 15:50:53 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448560246602" for ::1 at 2015-11-26 15:50:53 -0200
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:51:16 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (2.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 3141ms (Views: 3136.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for ::1 at 2015-11-26 15:51:19 -0200
+
+
+Started GET "/assets/scaffolds.self-3f404e58fd3c6eaceec1f7bbdd12faa7b1a8bb614376021bff3c28ceba0a923e.css?body=1" for ::1 at 2015-11-26 15:51:19 -0200
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for ::1 at 2015-11-26 15:51:19 -0200
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/costumer_table.self-3a5811d7c1a08cdf7c858be0ccfe5dad1b00a8fb9d8f2c8a0f277f50120b8c7c.css?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/usuarios.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/application.self-30e217f103d6632579fa2113f70cede543e09ec3f26957653e21a85d8f9e141b.css?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for ::1 at 2015-11-26 15:51:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/assets/funcoes_angular.self-55e3f37f55105f9c52cf732db3f3b236cdd6a4c5349f3185af647f3a6686c2c9.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-11-26 15:51:21 -0200
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:51:21 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1796ms (Views: 1792.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:51:23 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 1785ms (Views: 1783.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448560280335" for ::1 at 2015-11-26 15:51:28 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448560280336" for ::1 at 2015-11-26 15:51:28 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448560280337" for ::1 at 2015-11-26 15:51:28 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448560280338" for ::1 at 2015-11-26 15:51:28 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448560280339" for ::1 at 2015-11-26 15:51:28 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448560280340" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448560280341" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448560280342" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448560280343" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448560280344" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448560280345" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448560280346" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448560280347" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448560280348" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448560280349" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448560280350" for ::1 at 2015-11-26 15:51:29 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448560280351" for ::1 at 2015-11-26 15:51:30 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448560280352" for ::1 at 2015-11-26 15:51:30 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448560280353" for ::1 at 2015-11-26 15:51:30 -0200
+
+
+Started GET "/assets/funcoes_angular.self-55e3f37f55105f9c52cf732db3f3b236cdd6a4c5349f3185af647f3a6686c2c9.js?body=1&_=1448560280354" for ::1 at 2015-11-26 15:51:30 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448560280355" for ::1 at 2015-11-26 15:51:30 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448560280356" for ::1 at 2015-11-26 15:51:30 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448560280357" for ::1 at 2015-11-26 15:51:30 -0200
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:51:33 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (2.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 1746ms (Views: 1742.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:51:35 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 1604ms (Views: 1602.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:51:36 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (8.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1321ms (Views: 1319.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448560294970" for ::1 at 2015-11-26 15:51:43 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448560294971" for ::1 at 2015-11-26 15:51:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448560294972" for ::1 at 2015-11-26 15:51:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448560294973" for ::1 at 2015-11-26 15:51:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448560294974" for ::1 at 2015-11-26 15:51:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448560294975" for ::1 at 2015-11-26 15:51:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448560294976" for ::1 at 2015-11-26 15:51:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448560294977" for ::1 at 2015-11-26 15:51:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448560294978" for ::1 at 2015-11-26 15:51:43 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448560294979" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448560294980" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448560294981" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448560294982" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448560294983" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448560294984" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448560294985" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448560294986" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448560294987" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448560294988" for ::1 at 2015-11-26 15:51:44 -0200
+
+
+Started GET "/assets/funcoes_angular.self-55e3f37f55105f9c52cf732db3f3b236cdd6a4c5349f3185af647f3a6686c2c9.js?body=1&_=1448560294989" for ::1 at 2015-11-26 15:51:45 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448560294990" for ::1 at 2015-11-26 15:51:45 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448560294991" for ::1 at 2015-11-26 15:51:45 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448560294992" for ::1 at 2015-11-26 15:51:45 -0200
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:51:52 -0200
+Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT `usuarios`.* FROM `usuarios`[0m
+  Rendered usuarios/index.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 1834ms (Views: 1830.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:51:55 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1340ms (Views: 1337.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:51:56 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 1177ms (Views: 1175.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1&_=1448560314884" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1&_=1448560314885" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1&_=1448560314886" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1&_=1448560314887" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1&_=1448560314888" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1&_=1448560314889" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1&_=1448560314890" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1&_=1448560314891" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1&_=1448560314892" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1&_=1448560314893" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1&_=1448560314894" for ::1 at 2015-11-26 15:52:20 -0200
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1&_=1448560314895" for ::1 at 2015-11-26 15:52:21 -0200
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1&_=1448560314896" for ::1 at 2015-11-26 15:52:21 -0200
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1&_=1448560314897" for ::1 at 2015-11-26 15:52:21 -0200
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1&_=1448560314898" for ::1 at 2015-11-26 15:52:21 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1&_=1448560314899" for ::1 at 2015-11-26 15:52:21 -0200
+
+
+Started GET "/assets/TweenMax.min.self-72c7211e9c1a5f7559ad6092cddf75d405e3c09a8a15abcd7f9c594cdcaf1057.js?body=1&_=1448560314900" for ::1 at 2015-11-26 15:52:21 -0200
+
+
+Started GET "/assets/angular.self-ad82b181442540ad772f10fc46a37d0d589301c74504c71a1eb970cd1730bb5f.js?body=1&_=1448560314901" for ::1 at 2015-11-26 15:52:21 -0200
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1&_=1448560314902" for ::1 at 2015-11-26 15:52:21 -0200
+
+
+Started GET "/assets/funcoes_angular.self-55e3f37f55105f9c52cf732db3f3b236cdd6a4c5349f3185af647f3a6686c2c9.js?body=1&_=1448560314903" for ::1 at 2015-11-26 15:52:21 -0200
+
+
+Started GET "/assets/funcoes_jquery.self-e2d1aa81b0a7df59c9d4688ae7f8b885312d395c17ca3c1d9c5f97d5a023dc41.js?body=1&_=1448560314904" for ::1 at 2015-11-26 15:52:22 -0200
+
+
+Started GET "/assets/usuarios.self-5531af8d73654270eb90c94ae37ab88396ede7c092bff49aa614fcd3ed98e45b.js?body=1&_=1448560314905" for ::1 at 2015-11-26 15:52:22 -0200
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1&_=1448560314906" for ::1 at 2015-11-26 15:52:22 -0200
+
+
+Started GET "/usuarios" for ::1 at 2015-11-26 15:53:06 -0200
+Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (1.0ms)[0m  SELECT `usuarios`.* FROM `usuarios`
+  Rendered usuarios/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 2470ms (Views: 2466.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/funcoes_angular.self-64a97887fcecc1ec6a611ef76c622e6c898d9bf0ea77dd1dedc9162144b4c19e.js?body=1" for ::1 at 2015-11-26 15:53:09 -0200
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:53:09 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (9.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1200ms (Views: 1198.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for ::1 at 2015-11-26 15:53:11 -0200
+Processing by UsuariosController#new as HTML
+  Rendered usuarios/_form.html.erb (6.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1257ms (Views: 1256.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/5/edit" for ::1 at 2015-11-26 15:53:25 -0200
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUsuario Load (1.0ms)[0m  [1mSELECT  `usuarios`.* FROM `usuarios` WHERE `usuarios`.`id` = 5 LIMIT 1[0m
+  Rendered usuarios/_form.html.erb (10.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 1383ms (Views: 1376.1ms | ActiveRecord: 1.0ms)
