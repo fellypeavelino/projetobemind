@@ -1,0 +1,9 @@
+I"o(function() {
+  $('#editar').css(function() {
+    return {
+      left: "35%"
+    };
+  });
+
+}).call(this);
+:ET

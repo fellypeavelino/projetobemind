@@ -32,7 +32,7 @@ myApp.controller('customersCtrl', function($scope, $http) {
 			});
 			
 			$("#close").hide();
-			window.location.href = "http://localhost:3000/usuarios";
+			window.location.href = "/usuarios";
 		}
 	});
 	
