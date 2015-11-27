@@ -47,5 +47,6 @@ function anexarLinha(obj){
 		tr += "</td></tr>";
 		$("#mainTable").append(tr).fadeIn("slow");
 		$("html, body").animate({ scrollTop: document.body.scrollHeight }, 800);
+		$('#labelPlus').attr("ng-click","'execute("+obj.id+")'");
 		//$(document).scrollTop(document.body.scrollHeight)
 }
