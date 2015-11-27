@@ -4,8 +4,13 @@ class UsuariosController < ApplicationController
   # GET /usuarios
   # GET /usuarios.json
   def index
-    @usuarios = Usuario.all
-    #@usuarios = Usuario.limit(5)
+    @ultimoUsuario = Usuario.limit(8).last
+    @usuarios = Usuario.limit(8)
+	@quantidadeUsusarios = Usuario.all.count
+	@quantidadeUsusariosValida = false
+	if @quantidadeUsusarios > 8 then
+		@quantidadeUsusariosValida = true
+	end
   end
 
   # GET /usuarios/1

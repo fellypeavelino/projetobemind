@@ -6,13 +6,13 @@
 	X
 </div>
 <p id="notice"><% notice %></p>
-<div class="panel panel-default">
+<div class="panel panel-default" ng-controller="customersCtrl">
 	<div class="panel-body">
 		<h1 style="text-align:center" >Listando Usuarios</h1>
 		<br>
-		<div class="container" ng-controller="customersCtrl" >
-			<div class="row col-md-6 col-md-offset-2 custyle">
-				<table class="table table-striped custab">
+		<div class="container" >
+			<div class="row col-md-6 col-md-offset-2 custyle" >
+				<table class="table table-striped custab" id="mainTable">
 					<thead>
 						<a class="btn btn-primary btn-xs pull-right" ng-click="show()" ><b>+</b> Novo Usuario</a>
 						<!--
@@ -46,7 +46,7 @@
 										<%= link_to 'Editar', edit_usuario_path(usuario), role: "menuitem", tabindex:"-1" %> 
 									  </li>
 									  <li role="presentation">
-										<%= link_to 'Deletar', usuario, method: :delete, data: { confirm: 'Are you sure?' }, role: "menuitem", tabindex:"-1" %>
+										<%= link_to 'Deletar', usuario, method: :delete, data: { confirm: 'Deseja realmente deletar?' }, role: "menuitem", tabindex:"-1" %>
 									  </li>
 									</ul>
 								</div>
@@ -69,7 +69,15 @@
     <a class="navbar-brand" href="#">Projetobemind</a>
   </div>
 </div>
-
+<% if @quantidadeUsusariosValida then%>
+<div id="desce" ng-controller="customersCtrl" style="display:none;cursor:pointer;position:fixed;top:80%; left:80%">
+	<div ng-click="execute(<%= @ultimoUsuario.id %>)">
+		<button type="button" class="btn btn-success">
+			<span class="badge"><%= @quantidadeUsusarios %></span> Usuarios
+		</button>
+	</div>
+</div>
+<% end %>
 <!--
 <%= link_to 'Novo Usuario', new_usuario_path %>
 -->

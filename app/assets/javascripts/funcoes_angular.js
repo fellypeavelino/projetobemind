@@ -39,4 +39,29 @@ myApp.controller('customersCtrl', function($scope, $http) {
 		}
 	});
 	
+	var url = "/mais_usuarios/index?id=";
+	$scope.execute = function(id){
+		url = url+""+id;
+		$http.get(url)
+		.success(function(response) {
+			retorno = response;
+			var html = $.parseHTML(retorno);
+			for (var prop in html) {
+				if(prop == 89){
+					var div = $.parseHTML(html[prop].innerHTML)
+					for (var json in div) {
+						if(json == 1){
+							usuarios = JSON.parse(div[json].innerText.trim(''));
+							for(var ususario in usuarios){
+								//console.log(ususario);
+								anexarLinha(usuarios[ususario]);
+							}
+						}
+					}
+				}
+			}			
+		});
+	}
+	
 });
+
