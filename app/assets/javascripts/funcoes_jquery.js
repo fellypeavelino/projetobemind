@@ -26,7 +26,7 @@ function anexarLinha(obj){
 			tr += "masculino";
 		}
 		tr += "</td>";
-		tr += "<td>"+obj.nascimento.split('-').reverse().join('/')+"</td>";
+		tr += "<td>"+(obj.nascimento != null ? obj.nascimento.split('-').reverse().join('/') : "")+"</td>";
 		tr += "<td class='text-center'>";
 		tr += "<div class='dropdown'>";
 		tr += "<button class='btn btn-default dropdown-toggle' type='button' id='menu1' data-toggle='dropdown'>";
